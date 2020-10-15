@@ -1,0 +1,19 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "It is a personal project where I build some services rest for app. That app is about english. You can save vocabulary, search and practise.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsobrino/englishVocabulary.git"
+  },
+  "author": "ajsobrino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajsobrino/englishVocabulary/issues"
+  },
+  "homepage": "https://github.com/ajsobrino/englishVocabulary#readme"
+}
