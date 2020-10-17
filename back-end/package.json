@@ -4,7 +4,8 @@
   "description": "It is a personal project where I build some services rest for app. That app is about english. You can save vocabulary, search and practise.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon ./dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/ajsobrino/englishVocabulary/issues"
   },
-  "homepage": "https://github.com/ajsobrino/englishVocabulary#readme"
+  "homepage": "https://github.com/ajsobrino/englishVocabulary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36"
+  }
 }
