@@ -4,11 +4,12 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ListWordsComponent } from './list-words/list-words.component';
 import { ListGameComponent } from './list-game/list-game.component';
 import { RegisterWordComponent } from './register-word/register-word.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 
 @NgModule({
-  declarations: [WelcomeComponent, ListWordsComponent, ListGameComponent, RegisterWordComponent],
+  declarations: [WelcomeComponent, ListWordsComponent, ListGameComponent, RegisterWordComponent, ModalComponent],
   imports: [
     CommonModule
   ],
